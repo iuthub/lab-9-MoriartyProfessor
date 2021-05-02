@@ -12,7 +12,7 @@
                             class="form-control"
                             id="title"
                             name="title"
-                            value="{{ $post['title'] }}">
+                            value="{{ $post->title }}">
                 </div>
                 <div class="form-group">
                     <label for="content">Content</label>
